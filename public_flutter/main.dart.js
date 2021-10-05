@@ -59786,7 +59786,7 @@ l.ng(0,0,-10,0)
 if(n.d)s=l
 else{s=new E.aD(new Float64Array(16))
 s.cJ()}r=t.w
-r=b.S(r).f.a.a<700?b.S(r).f.a.a*0.4:b.S(r).f.a.a*0.25
+r=b.S(r).f.a.a<700?b.S(r).f.a.a*0.35:b.S(r).f.a.a*0.25
 q=K.Pd(10)
 p=n.a
 o=M.bJ(m,L.aoD(p.c,C.FR,42),C.m,C.dX,m,m,m,70,m,m,m,m,70)

@@ -77741,7 +77741,7 @@ n=A.bo(new A.aB(m))
 s=p.a
 r=p.b
 q=p.c
-A.bu(n,n.gbh().a9(0,"list_restaurant")).as(0,s.d.r).a9(0,"menus").as(0,r.a).a9(0,"categorie_sous_menus").D(0,A.axa(q)).am(0,new A.a8j(s,r,q,p.d),t.P)
+A.bu(n,n.gbh().a9(0,"list_restaurant")).as(0,s.d.r).a9(0,"menus").as(0,r.a).a9(0,"groupe_produits").D(0,A.axa(q)).am(0,new A.a8j(s,r,q,p.d),t.P)
 r=p.e
 s=r.P(t.J)
 s.toString
@@ -77749,22 +77749,22 @@ q=A.aH("Le Groupe "+A.d(q.b)+" \xe9t\xe9 ajouter",o,o,o,o,o,o,o)
 s.f.h5(A.ik(o,o,A.I(r).k3,o,q,B.aD,B.an,o,o,o,o,o,o,o))},
 $S:0}
 A.a8j.prototype={
-$1(a){var s,r,q,p=this,o="[DEFAULT]",n="list_restaurant",m=$.Q,l=(m==null?$.Q=$.aG():m).aM(0,o)
-m=$.aW()
-A.am(l,m,!1)
-s=A.bo(new A.aB(l))
+$1(a){var s,r,q,p=this,o="[DEFAULT]",n="list_restaurant",m="groupe_produits",l=$.Q,k=(l==null?$.Q=$.aG():l).aM(0,o)
+l=$.aW()
+A.am(k,l,!1)
+s=A.bo(new A.aB(k))
 r=p.a
-s=A.bu(s,s.gbh().a9(0,n)).as(0,r.d.r).a9(0,"menus").as(0,p.b.a).a9(0,"categorie_sous_menus")
+s=A.bu(s,s.gbh().a9(0,n)).as(0,r.d.r).a9(0,"menus").as(0,p.b.a).a9(0,m)
 q=a.a.c.a
 s=s.as(0,B.b.gJ(q))
 q=A.fv(A.Z(["id",B.b.gJ(q)],t.N,t.X))
 q.toString
 s.a.aJ(0,q)
 q=$.Q
-l=(q==null?$.Q=$.aG():q).aM(0,o)
-A.am(l,m,!1)
-m=A.bo(new A.aB(l))
-A.bu(m,m.gbh().a9(0,n)).as(0,r.d.r).a9(0,"groupe_produits").as(0,p.c.a).a9(0,"restaurant_produits").ju(0).am(0,new A.a8i(r,p.d,a),t.P)},
+k=(q==null?$.Q=$.aG():q).aM(0,o)
+A.am(k,l,!1)
+l=A.bo(new A.aB(k))
+A.bu(l,l.gbh().a9(0,n)).as(0,r.d.r).a9(0,m).as(0,p.c.a).a9(0,"restaurant_produits").ju(0).am(0,new A.a8i(r,p.d,a),t.P)},
 $S:29}
 A.a8i.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e="[DEFAULT]"
@@ -77795,7 +77795,7 @@ k.gbh()
 f=o.a.a
 k=m.a(k.b).as(0,f)
 A.am(k,g,!1)
-k=new A.kP(h,k.b.a9(0,B.b.aY(k.c.a,"/")+"/sous_menus"))
+k=new A.kP(h,k.b.a9(0,B.b.aY(k.c.a,"/")+"/produits"))
 k.gbh()
 k.D(0,A.Z(["id","","nom",j.b,"groupeId",B.b.gJ(s),"prix",j.d],r,q)).am(0,new A.a8h(p,o),n)}},
 $S:197}
@@ -77803,7 +77803,7 @@ A.a8h.prototype={
 $1(a){var s,r=$.Q,q=(r==null?$.Q=$.aG():r).aM(0,"[DEFAULT]")
 A.am(q,$.aW(),!1)
 r=A.bo(new A.aB(q))
-r=A.bu(r,r.gbh().a9(0,"list_restaurant")).as(0,this.a.d.r).a9(0,"menus").as(0,this.b.a.a).a9(0,"sous_menus")
+r=A.bu(r,r.gbh().a9(0,"list_restaurant")).as(0,this.a.d.r).a9(0,"menus").as(0,this.b.a.a).a9(0,"produits")
 s=a.a.c.a
 r=r.as(0,B.b.gJ(s))
 s=A.fv(A.Z(["id",B.b.gJ(s)],t.N,t.X))
@@ -78011,7 +78011,7 @@ n=$.Q
 r=(n==null?$.Q=$.aG():n).aM(0,"[DEFAULT]")
 A.am(r,$.aW(),!1)
 n=A.bo(new A.aB(r))
-n=A.jP(A.ex(s,q,A.kB(new A.anl(this.a,o,p),A.bu(n,n.gbh().a9(0,"list_restaurant")).as(0,o.d.r).a9(0,"menus").as(0,p.a.a).a9(0,"categorie_sous_menus").h8(),t.l7),q),1)}else n=B.T
+n=A.jP(A.ex(s,q,A.kB(new A.anl(this.a,o,p),A.bu(n,n.gbh().a9(0,"list_restaurant")).as(0,o.d.r).a9(0,"menus").as(0,p.a.a).a9(0,"groupe_produits").h8(),t.l7),q),1)}else n=B.T
 else n=B.T
 return n},
 $C:"$3",
@@ -78058,7 +78058,7 @@ $0(){var s,r,q=this,p=null,o=$.Q,n=(o==null?$.Q=$.aG():o).aM(0,"[DEFAULT]")
 A.am(n,$.aW(),!1)
 o=A.bo(new A.aB(n))
 s=q.c
-A.bu(o,o.gbh().a9(0,"list_restaurant")).as(0,q.a.d.r).a9(0,"menus").as(0,q.b.a.a).a9(0,"categorie_sous_menus").as(0,s.a).a.co(0)
+A.bu(o,o.gbh().a9(0,"list_restaurant")).as(0,q.a.d.r).a9(0,"menus").as(0,q.b.a.a).a9(0,"groupe_produits").as(0,s.a).a.co(0)
 o=q.d
 r=o.P(t.J)
 r.toString
@@ -78071,7 +78071,7 @@ A.am(o,$.aW(),!1)
 p=A.bo(new A.aB(o))
 s=this.a
 r=this.b
-A.bu(p,p.gbh().a9(0,"list_restaurant")).as(0,s.d.r).a9(0,"menus").as(0,r.a.a).a9(0,"categorie_sous_menus").D(0,A.axa(a)).am(0,new A.anf(s,r,a),t.P)
+A.bu(p,p.gbh().a9(0,"list_restaurant")).as(0,s.d.r).a9(0,"menus").as(0,r.a.a).a9(0,"groupe_produits").D(0,A.axa(a)).am(0,new A.anf(s,r,a),t.P)
 r=this.c
 s=r.P(t.J)
 s.toString
@@ -78079,23 +78079,23 @@ p=A.aH("Le Groupe "+A.d(a.b)+" \xe9t\xe9 ajouter",q,q,q,q,q,q,q)
 s.f.h5(A.ik(q,q,A.I(r).k3,q,p,B.aD,B.an,q,q,q,q,q,q,q))},
 $S:548}
 A.anf.prototype={
-$1(a){var s,r,q,p,o="[DEFAULT]",n="list_restaurant",m=$.Q,l=(m==null?$.Q=$.aG():m).aM(0,o)
-m=$.aW()
-A.am(l,m,!1)
-s=A.bo(new A.aB(l))
+$1(a){var s,r,q,p,o="[DEFAULT]",n="list_restaurant",m="groupe_produits",l=$.Q,k=(l==null?$.Q=$.aG():l).aM(0,o)
+l=$.aW()
+A.am(k,l,!1)
+s=A.bo(new A.aB(k))
 r=this.a
 q=this.b
-s=A.bu(s,s.gbh().a9(0,n)).as(0,r.d.r).a9(0,"menus").as(0,q.a.a).a9(0,"categorie_sous_menus")
+s=A.bu(s,s.gbh().a9(0,n)).as(0,r.d.r).a9(0,"menus").as(0,q.a.a).a9(0,m)
 p=a.a.c.a
 s=s.as(0,B.b.gJ(p))
 p=A.fv(A.Z(["id",B.b.gJ(p)],t.N,t.X))
 p.toString
 s.a.aJ(0,p)
 p=$.Q
-l=(p==null?$.Q=$.aG():p).aM(0,o)
-A.am(l,m,!1)
-m=A.bo(new A.aB(l))
-A.bu(m,m.gbh().a9(0,n)).as(0,r.d.r).a9(0,"groupe_produits").as(0,this.c.a).a9(0,"restaurant_produits").ju(0).am(0,new A.and(r,q,a),t.P)},
+k=(p==null?$.Q=$.aG():p).aM(0,o)
+A.am(k,l,!1)
+l=A.bo(new A.aB(k))
+A.bu(l,l.gbh().a9(0,n)).as(0,r.d.r).a9(0,m).as(0,this.c.a).a9(0,"restaurant_produits").ju(0).am(0,new A.and(r,q,a),t.P)},
 $S:29}
 A.and.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e="[DEFAULT]"
@@ -78126,7 +78126,7 @@ k.gbh()
 f=o.a.a
 k=m.a(k.b).as(0,f)
 A.am(k,g,!1)
-k=new A.kP(h,k.b.a9(0,B.b.aY(k.c.a,"/")+"/sous_menus"))
+k=new A.kP(h,k.b.a9(0,B.b.aY(k.c.a,"/")+"/produits"))
 k.gbh()
 k.D(0,A.Z(["id","","nom",j.b,"groupeId",B.b.gJ(s),"prix",j.d],r,q)).am(0,new A.anc(p,o),n)}},
 $S:197}
@@ -78134,7 +78134,7 @@ A.anc.prototype={
 $1(a){var s,r=$.Q,q=(r==null?$.Q=$.aG():r).aM(0,"[DEFAULT]")
 A.am(q,$.aW(),!1)
 r=A.bo(new A.aB(q))
-r=A.bu(r,r.gbh().a9(0,"list_restaurant")).as(0,this.a.d.r).a9(0,"menus").as(0,this.b.a.a).a9(0,"sous_menus")
+r=A.bu(r,r.gbh().a9(0,"list_restaurant")).as(0,this.a.d.r).a9(0,"menus").as(0,this.b.a.a).a9(0,"produits")
 s=a.a.c.a
 r=r.as(0,B.b.gJ(s))
 s=A.fv(A.Z(["id",B.b.gJ(s)],t.N,t.X))

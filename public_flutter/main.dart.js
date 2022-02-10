@@ -76564,8 +76564,8 @@ $ici:1}
 A.Ay.prototype={
 a5(){return new A.U2(A.f5(null),A.f5(null),new A.b3(null,t.am),B.k)}}
 A.U2.prototype={
-G(a,b){var s,r,q,p,o,n,m,l=this,k=null,j=t.w,i=b.O(j).f.a.a<400?b.O(j).f.a.a:b.O(j).f.a.a*0.3
-j=b.O(j).f.a.b<400?b.O(j).f.a.b:b.O(j).f.a.b*0.8
+G(a,b){var s,r,q,p,o,n,m,l=this,k=null,j=t.w,i=b.O(j).f.a.a<500?b.O(j).f.a.a:500
+j=b.O(j).f
 s=A.c0(new A.zV(A.aQ_(k,k,new A.rF("assets/logo.png",k,k)),k),80,340)
 r=A.fP(k,k,k,k,!1,k,B.Y4,A.aF("Connectez-vous",k,k,k,k,A.I(b).K.c.OX(B.r,B.a4),k,k),k)
 q=A.c0(A.axe(l.Q,B.LC,1,k,!1,k,new A.anU()),60,1/0)
@@ -76574,7 +76574,7 @@ p=A.c0(A.axe(l.ch,A.a70(k,B.b5,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,
 o=!l.x
 n=o?new A.anY(l):new A.anZ()
 m=t.p
-i=A.L1(A.i8(A.b([A.fk(A.c0(A.d5(A.b([A.rV(new A.aL(B.ap,A.d5(A.b([s,r,q,p,A.c0(A.lk(!1,o?B.Y7:B.Tm,B.l,k,k,k,k,k,n,k),40,1/0),A.Qr(B.Ya,l.z),A.Dt(B.Yb,new A.ao_(),k)],m),B.u,B.w,B.p),k),1)],m),B.u,B.hX,B.p),j,i),k,k)],m),k,k,!0),l.cx)
+i=A.L1(A.i8(A.b([A.fk(A.c0(A.d5(A.b([A.rV(new A.aL(B.ap,A.d5(A.b([s,r,q,p,A.c0(A.lk(!1,o?B.Y7:B.Tm,B.l,k,k,k,k,k,n,k),40,1/0),A.Qr(B.Ya,l.z),A.Dt(B.Yb,new A.ao_(),k)],m),B.u,B.w,B.p),k),1)],m),B.u,B.hX,B.p),j.a.b*0.8,i),k,k)],m),k,k,!0),l.cx)
 j=A.I(b)
 return A.eS(k,k,i,A.bP(k,A.cg(A.b([new A.aL(B.G,A.aF("\xa9liberty 2022",k,k,k,k,A.I(b).K.f.cM(B.j),k,k),k)],m),B.u,B.w,B.p,k),B.l,j.b,k,k,k,40,k,k,k,k,1/0))}}
 A.anU.prototype={

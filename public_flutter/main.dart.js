@@ -24413,7 +24413,7 @@ while(true)switch(s){case 0:s=2
 return A.y(A.a6T(),$async$a5Z)
 case 2:m=b
 s=3
-return A.y(A.aFm("PRODUCTION"),$async$a5Z)
+return A.y(A.aFm("DEV"),$async$a5Z)
 case 3:q=$.aVB()
 q=q==null?null:q.getAttribute("href")
 if(q==null)A.ac(A.c5("Please add a <base> element to your index.html"))
